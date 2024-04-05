@@ -289,9 +289,13 @@
   height: 72px;
   width: 243px;
 }
+.shit-padding{
+  padding-bottom: 20px;
+}
 
 .Cargo-insurance {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 105px;
   /* padding-left: 100px; */
@@ -304,6 +308,9 @@
 .Minimal-pading {
   padding-left: 53px;
 }
+
+
+
 
 .container-tex {
   max-width: 1238px;
@@ -738,6 +745,7 @@ color:#00000017; */
 
 .futter-icon-tex-flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -1552,10 +1560,10 @@ max-width: 253px;
 
 @media  (max-width: 1400px) {
   .container-tex{
-  min-width: 1300px;
+ min-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-  background-color: #d6d9ce;
+  /* background-color: #d6d9ce; */
  }
 }
 @media  (max-width: 900px){
